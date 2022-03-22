@@ -1,0 +1,7 @@
+**/.clangd
+build/
+cd/
+compile_commands.json
+tags
+*.cue
+*.iso
