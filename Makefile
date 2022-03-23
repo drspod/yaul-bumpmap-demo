@@ -6,9 +6,9 @@ include $(YAUL_INSTALL_ROOT)/share/pre.common.mk
 
 BUILTIN_ASSETS+= \
 	assets/WALL3_IMG.TGA;asset_wall_img_tga \
-	assets/WALL3_HMAP.TGA;asset_wall_hmap_tga \
+	assets/WALL3_NORM16_2.TGA;asset_wall_nmap_tga \
 	assets/SEGA_IMG.TGA;asset_sega_img_tga \
-	assets/SEGA_HMAP.TGA;asset_sega_hmap_tga
+	assets/SEGA_NORM16.TGA;asset_sega_nmap_tga
 
 SH_PROGRAM:= test-bumpmap
 SH_SRCS:= \
